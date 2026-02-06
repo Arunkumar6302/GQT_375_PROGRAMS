@@ -1,0 +1,23 @@
+package com.gqt.arrays;
+
+import java.util.Arrays;
+
+public class Program9 {
+	public static void main(String[] args) {
+		int[] a = { 1, 2, 3 };
+		int[] b = { 2, 3, 4 };
+		System.out.println("Array Elements : ");
+		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(b));
+		System.out.println("Intersection of two numbers :");
+		for (int x : a) {
+			for (int y : b) {
+				if (x == y) {
+					System.out.print(x + " ");
+				}
+			}
+
+		}
+
+	}
+}
