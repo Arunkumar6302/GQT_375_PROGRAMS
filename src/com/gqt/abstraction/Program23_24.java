@@ -21,7 +21,7 @@ class Rectangleee extends Shapeee{
 		System.out.println("Rectangle Perimeter Area");
 	}
 }
-public class Program23 {
+public class Program23_24 {
 	public static void main(String[] args) {
 		System.out.println("Circle Details :");
 		Circleee s = new Circleee();

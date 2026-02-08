@@ -26,7 +26,7 @@ class CurrentAccounttt extends BankAccounttt {
 	}
 }
 
-public class Program19 {
+public class Program19_20 {
 	public static void main(String[] args) {
 		System.out.println("Saving Account Details : ");
 		SavingsAccounttt s = new SavingsAccounttt();

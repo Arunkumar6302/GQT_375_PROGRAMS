@@ -1,12 +1,12 @@
 package com.gqt.abstraction;
 
-abstract class BankAccounttt1 {
+abstract class BankAccount {
 	abstract void deposit();
 
 	abstract void withdraw();
 }
 
-class SavingsAccounttt1 extends BankAccounttt1 {
+class SavingsAccount extends BankAccount {
 	void deposit() {
 		System.out.println("Deposit in Savings Account");
 	}
@@ -16,7 +16,7 @@ class SavingsAccounttt1 extends BankAccounttt1 {
 	}
 }
 
-class CurrentAccounttt1 extends BankAccounttt1 {
+class CurrentAccount extends BankAccount {
 	void deposit() {
 		System.out.println("Deposit in Current Account");
 	}
@@ -26,15 +26,16 @@ class CurrentAccounttt1 extends BankAccounttt1 {
 	}
 }
 
-public class Program31 {
+public class Program7_8 {
 	public static void main(String[] args) {
+
 		System.out.println("Saving Account Details : ");
-		SavingsAccounttt1 s = new SavingsAccounttt1();
+		SavingsAccount s = new SavingsAccount();
 		s.deposit();
 		s.withdraw();
-		System.out.println("-----------------------------");
+		System.out.println("------------------------------");
 		System.out.println("Current Account Details : ");
-		CurrentAccounttt1 c = new CurrentAccounttt1();
+		CurrentAccount c = new CurrentAccount();
 		c.deposit();
 		c.withdraw();
 	}

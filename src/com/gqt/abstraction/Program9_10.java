@@ -25,7 +25,7 @@ class Motorcycle extends Vehicle {
     }
 }
 
-public class Program9 {
+public class Program9_10 {
     public static void main(String[] args) {
     	System.out.println("Car Details : ");
         Car c = new Car();

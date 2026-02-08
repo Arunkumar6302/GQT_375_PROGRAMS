@@ -22,7 +22,7 @@ class Catt extends Animall {
 	}
 }
 
-public class Program21 {
+public class Program21_22 {
 	public static void main(String[] args) {
 		System.out.println("Dog Details : ");
 		Dogg d = new Dogg();

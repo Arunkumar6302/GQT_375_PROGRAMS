@@ -25,7 +25,7 @@ class Circle3 extends Figure {
     }
 }
 
-public class Program15 {
+public class Program15_16 {
     public static void main(String[] args) {
         System.out.println("Recatngle Details :  ");
         Rectangle3 r = new Rectangle3();

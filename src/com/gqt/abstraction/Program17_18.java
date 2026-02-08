@@ -21,7 +21,7 @@ class Truck extends Vehicle2 {
 	}
 }
 
-public class Program17 {
+public class Program17_18 {
 	public static void main(String[] args) {
 		System.out.println("Car Details : ");
 		Carr c = new Carr();

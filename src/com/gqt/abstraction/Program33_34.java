@@ -26,7 +26,7 @@ class Catt1 extends Animall1 {
 	}
 }
 
-public class Program33 {
+public class Program33_34 {
 	public static void main(String[] args) {
 		System.out.println("Dog Details : ");
 		Dogg1 d = new Dogg1();
